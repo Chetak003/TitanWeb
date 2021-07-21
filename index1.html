@@ -1,0 +1,966 @@
+# TitanWeb 
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>bootstrap  website</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-sftitlx6kk+qitfevl/7libuoejwlt9rbydn92a1dqwow9vwg2mfoays0sgobmwazo5bqpifucnneajpab+/sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  
+
+ <style>
+
+ *{ margin: 0; padding :0; box-sizing: border-box; 
+
+   font-family:'source sans pro',sans-serif;
+
+ }
+
+ .bodystyle
+
+ {
+
+   width: 90%;
+
+   margin: 0 auto;
+
+ }
+
+ .logostyle
+
+ {
+
+   height: 40px;
+
+ }
+
+ /* make the image fully responsive */
+
+  .carousel-inner img {
+
+    width: 100%;
+
+    height: 450px;
+
+  }
+
+ .carousel-item
+
+ {
+
+   position: relative;
+
+   z-index: 1;
+
+ }
+
+ .carousel-caption
+
+{
+
+  position: absolute;
+
+  top: 10%;
+
+  left: 7%!important;
+
+    color: black;
+
+}
+
+  .carousel-caption h3
+
+{
+
+  text-align: left;
+
+  color: black;
+
+}
+
+   .carousel-caption p
+
+{
+
+  text-align: left;
+
+  color: black;
+
+}
+
+ .carousel-caption button
+
+{
+
+  color: white;
+
+  background: black;
+
+  font-size: 15px;
+
+  padding: 5px 15px;
+
+  border: none;
+
+  position: absolute;
+
+ left: 0;
+
+}
+
+ 
+
+main{
+
+  margin: 40px 0;
+
+}
+
+ .card { border: none;!important
+
+ }
+
+   
+
+.card-body { padding: 5px 0;!important }
+
+ 
+
+ .card-img-top { height: 170px; }
+
+ 
+
+ 
+
+ <--- ourservice --->
+
+.ourservice { padding: 100px 0px 60px;
+
+height:700px ;
+
+}
+
+.ourservice h1 { font-size: 60px;
+
+font-weight: bold;
+
+}
+
+.rowsettings { margin: 80px 0px !important; 
+
+}
+
+.imgsetting { border-radius: 50%;
+
+height: 100px;
+
+width: 100px;
+
+}
+
+.fa-desktop { margin-top: 25px;
+
+}
+
+.fa-lock { margin-top: 20px;
+
+}
+
+.fa-commenting-o { margin-top: 20px;
+
+}
+
+.rowsettings h2 { margin-top: 20px;
+
+font-weight: bold;
+
+font-size: 30px;
+
+}
+
+.rowsettings p { padding: 10px;
+
+color: rgb(0,0,0);
+
+}
+
+ 
+
+.webstore
+
+{
+
+  width: 100%;
+
+  height: 450px;
+
+  background-image:linear-gradient( to right, rgba(0,0,0,0.7),rgba(0,0,0,0)),url('bgimgx.6.jpg');
+
+  background-size: 100% 100%;
+
+  margin: 20px 0 40px 0;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center ;
+
+  align-items: flex-start;
+
+  padding-left: 70px;
+
+}
+
+.bottomcard
+
+{
+
+  margin: 50px 0;
+
+}
+
+.socialsec
+
+{
+
+  margin-bottom: 40px;
+
+}
+
+.fa-youtube { color: red; }
+
+footer {
+
+  background: #f2f2f2 ;
+
+  padding: 40px 0 ;
+
+}
+
+footer li {
+
+  list-style: none;
+
+}
+
+footer a {
+
+  text-decoration: none;
+
+  color: #818181;
+
+}
+
+.footerbottomcredit {
+
+  display: flex ;
+
+  justify-content: space-between;
+
+}
+
+ 
+
+ </style>
+
+</head>
+
+<body>
+
+  
+
+<div class="bodystyle">
+
+  <nav class="navbar  navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+
+<div class="container-fluid">
+
+<a href="#" class="navbar-brand">  
+
+<img src="img.jpg" class="logostyle">
+
+</a>
+
+  
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+
+   <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+ <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+ <li class="nav-item">
+
+ <a class="nav-link active" aria-current="page" href="#">home</a>
+
+  </li>
+
+ <li class="nav-item">
+
+ <a class="nav-link" href="#service">service</a>
+
+ </li>
+
+ <li class="nav-item">
+
+ <a class="nav-link" href="#about">about</a>
+
+ </li>
+
+ <li class="nav-item">
+
+ <a class="nav-link" href="#contact--">contact</a>
+
+ </li>
+
+  </ul>
+
+   <form class="d-flex">
+
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+ <li class="nav-item">
+
+ <a class="nav-link active" aria-current="page" href="#">all titanweb</a>
+
+  </li>
+
+   <li class="nav-item">
+
+ <a class="nav-link active" aria-current="page" href="#">
+
+   <i class="fa fa-search"></i></a>
+
+  </li>
+
+</ul>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <ul class="carousel-indicators">
+
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+
+    <li data-target="#demo" data-slide-to="1"></li>
+
+    <li data-target="#demo" data-slide-to="2"></li>
+
+  </ul>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+
+      <img src="bgimg6.jpg" alt="los angeles" width="1100" height="500">
+
+      <div class="carousel-caption">
+
+        <h3>tech word</h3>
+
+        <p>we had such a great time in web!</p>
+
+      <button> let's start ></button>
+
+      </div>   
+
+    </div>
+
+<div class="carousel-item">
+
+      <img src="bgimg0.jpg" alt="chicago" width="1100" height="500">
+
+      <div class="carousel-caption">
+
+        <h3>titanweb</h3>
+
+        <p>thank you, titanweb!</p>
+
+      </div>   
+
+    </div>
+
+<div class="carousel-item">
+
+      <img src="bgimg4.jpg" alt="new york" width="1100" height="500">
+
+      <div class="carousel-caption">
+
+        <h3>new knowledge</h3>
+
+        <p>we love the tech!</p>
+
+      </div>   
+
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+
+    <span class="carousel-control-prev-icon"></span>
+
+  </a>
+
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+
+    <span class="carousel-control-next-icon"></span>
+
+  </a>
+
+</div>
+
+<!-- main -->
+
+<main>
+
+  <div class="">
+
+   <div class="row">
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimgx.2_1.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">cyber fishing</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+  </div>
+
+     
+
+<!-- 1 -->
+
+ <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimg7.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">control</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+  
+
+     </div>
+
+<!-- 2 -->
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimgx.03.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">dark web</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+  
+
+     </div>
+
+<!-- 3-->
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimg3.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">protection</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+  </div>
+
+   </div>
+
+  </div>
+
+ 
+
+  </main>
+
+  <!-- service-->
+
+  
+
+<section class="container ourservice text-center" id="service">
+
+  <h1> service </h1>
+
+  <p>titanweb 1'st priority to secure your data</p>
+
+  <div class="row rowsettings">
+
+   <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block ml-auto">
+
+  <div class="imgsetting d-block m-auto btn-warning">
+
+  <i class="fa fa-desktop fa-3x text-white"></i>
+
+  </div>
+
+  <h2>responsive design</h2>
+
+ <p>11 usshu ieehu eieheh euhe ueheh eueheheh euebeje jeeh eij eie eue i ei 1111</p>
+
+ </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block ml-auto">
+
+  <div class="imgsetting d-block m-auto btn-warning">
+
+  <i class="fa fa-lock fa-3x text-white"></i></div> 
+
+  <h2>web security</h2>
+
+  <p>11 usshu ieehu eieheh euhe ueheh eueheheh euebeje jeeh eij eie eue i ei 1111</p>
+
+ </div>
+
+ <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block ml-auto">
+
+  <div class="imgsetting d-block m-auto btn-warning">
+
+<i class="fa fa-commenting-o fa-3x text-white"></i> 
+
+</div>
+
+<h2>our blog</h2>
+
+  <p>11 usshu ieehu eieheh euhe ueheh eueheheh euebeje jeeh eij eie eue i ei 1111</p>
+
+ </div>
+
+</div>
+
+</section>
+
+  
+
+  
+
+  <!-- website-->
+
+<section class="webstore">
+
+<div class="website">
+
+  <h3>quote</h3>
+
+  <p> if you have to dream if we dream become's true.....
+
+  .....say - a.p.j.kalam
+
+ </p>
+
+</div>
+
+ </section>
+
+ <!-- about -->
+
+ <section class="bottomcard" id="about">
+
+<h2> about </h2>
+
+   <div class="row">
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimgx.2_1.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">cyber fishing</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+  <div>
+
+    <div>
+
+ <!-- 1 -->
+
+ <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimg7.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">control</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+     </div>
+
+<!-- 2 -->
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimgx.03.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">dark web</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+    </div>
+
+    
+
+  </div>
+
+       </div>
+
+<!-- 3-->
+
+  <div class="col-lg-3 col-md-3 col-12">
+
+ <div class="card">
+
+    <img class="card-img-top" src="bgimg3.jpg" alt="card image" style="width:100%">
+
+    <div class="card-body">
+
+      <h4 class="card-title">protection</h4>
+
+      <p class="card-text">some example text some example text. is an architect and engineer</p>
+
+      <a href="#">shop now > </a>
+
+   </div>
+
+ </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- contact-->
+
+<section class="socialsec">
+
+ <div class="row">
+
+  <div class="col-lg-2">
+
+    follow titanweb
+
+   </div>
+
+   <div class="col-lg-1">
+
+     <a href="#" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> </a>
+
+   </div>
+
+   <div class="col-lg-1">
+
+     <a href="#" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> </a>
+
+   </div>
+
+   <div class="col-lg-1">
+
+     <a href="#" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a>
+
+   </div>
+
+   <div class="col-lg-1">
+
+     <a href="#" target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i> </a>
+
+   </div>
+
+ </div>
+
+  </section>
+
+</div>
+
+<footer>
+
+  <div class="container">
+
+  <div class="row">
+
+  <div class="col-lg-2">
+
+   <p> what's new </p>
+
+   <ul>
+
+ <li> <a href="#"> surface go </a></li>
+
+  <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ </ul>
+
+  </div>
+
+  
+
+ <div class="col-lg-2">
+
+   <p> what's new </p>
+
+   <ul>
+
+ <li> <a href="#"> surface go </a></li>
+
+  <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ </ul>
+
+  </div>
+
+  
+
+ <div class="col-lg-2">
+
+   <p> what's new </p>
+
+   <ul>
+
+ <li> <a href="#"> surface go </a></li>
+
+  <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ </ul>
+
+  </div>
+
+ <div class="col-lg-2">
+
+   <p> what's new </p>
+
+   <ul>
+
+ <li> <a href="#"> surface go </a></li>
+
+  <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ </ul>
+
+  </div>
+
+  
+
+ <div class="col-lg-2">
+
+   <p> what's new </p>
+
+   <ul>
+
+ <li> <a href="#"> surface go </a></li>
+
+  <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ <li> <a href="#"> surface go </a></li>
+
+ </ul>
+
+  </div>
+
+  
+
+  </div>
+
+  </div>
+
+  <div class="row">
+
+   <div class="col-lg-4">
+
+    <p> english (india) </p>
+
+     </div>
+
+     
+
+<div class="col-lg-8 footerbottomcredit">
+
+     <div>
+
+       <p> home </p>
+
+     </div>
+
+     <div>
+
+       <p> home </p>
+
+     </div>
+
+     <div>
+
+       <p> home </p>
+
+     </div>
+
+     <div>
+
+       <p> home </p>
+
+     </div>
+
+     <div>
+
+       <p> contact </p>
+
+     </div>
+
+     <div>
+
+       <p> back to home </p>
+
+     </div>
+
+   </div>
+
+  </div>
+
+  </footer>
+
+  </body>
+
+</html>
